@@ -1,0 +1,169 @@
+def cargar_insumos(centro: str,
+                   insumo: str,
+                   cantidad: int,
+                   matriz_stock: list) -> None:
+    
+    match centro:
+        case "Buenos Aires":
+            fila = 0
+        case "San Juan":
+            fila = 1
+        case "Jujuy":
+            fila = 2
+        case "Neuquén":
+            fila = 3
+
+    match insumo:
+        case "Guantes descartables":
+            columna = 0
+        case "Mascarillas quirúrgicas":
+            columna = 1
+        case "Jeringas":
+            columna = 2
+        case "Alcohol en gel":
+            columna = 3
+        case "Test rápidos":
+            columna = 4
+
+    print("STOCK")
+    matriz_stock[fila][columna] += cantidad
+    
+
+def mostrar_matriz_stock(matriz_stock: list) -> None:
+
+    for i in range(len(matriz_stock)):
+        for j in range(len(matriz_stock[i])):
+            print(matriz_stock[i][j], end=" ")
+        print()
+
+
+def mostrar_centros_mas_10000_unidades_total(matriz_stock: list) -> None:
+
+    suma_lista = [0, 0, 0, 0]
+
+    for i in range(len(matriz_stock)):
+        for j in range(len(matriz_stock[i])):
+            suma_lista[i] += matriz_stock[i][j]
+
+
+    print("Los centros que tienen más de 10000 unidades de stock en total son:")
+    contador = 0
+    for i in range(len(suma_lista)):
+        if suma_lista[i] > 10000:
+            match i:
+                case 0:
+                    print("Buenos Aires")
+                case 1:
+                    print("San Juan")
+                case 2:
+                    print("Jujuy")
+                case 3:
+                    print("Neuquén")
+        else:
+            contador += 1
+
+    if contador == 4:
+        print("No hay centros con más de 10000 unidades de stock en total")
+
+
+def mostrar_insumos_mas_7000_unidades_stock_total(insumos: list,
+                                                  matriz_stock: list) -> None:
+    
+    suma_lista = [0, 0, 0, 0, 0]
+
+    for i in range(len(matriz_stock)):
+        for j in range(len(matriz_stock[i])):
+            suma_lista[j] += matriz_stock[i][j]
+            
+    for i in range(len(suma_lista)):
+        if suma_lista[i] > 7000:
+            print(f"El insumo {insumos[i]} tiene más de 7000 unidades en stock")
+
+
+def mostrar_centro_con_mayor_cant_insumos(centros_logisticos,
+                                          insumo,
+                                          matriz_stock: list) -> None:
+
+    match insumo:
+        case "Guantes descartables":
+            columna = 0
+        case "Mascarillas quirúrgicas":
+            columna = 1
+        case "Jeringas":
+            columna = 2
+        case "Alcohol en gel":
+            columna = 3
+        case "Test rápidos":
+            columna = 4
+
+    suma_lista = [[0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0]]
+    
+    for i in range(len(matriz_stock)):
+        suma_lista[i][columna] += matriz_stock[i][columna]
+
+    for i in range(len(suma_lista)):
+        if i == 0:
+            maximo = suma_lista[i][columna]
+            indice_centro = i
+        else:
+            if maximo < suma_lista[i][columna]:
+                maximo = suma_lista[i][columna]
+                indice_centro = i
+
+    print(f"El centro que tiene más {insumo} es {centros_logisticos[indice_centro]}")
+
+
+def registrar_venta_de_insumos(venta_insumos: list,
+                               centro: str,
+                               insumo: str,
+                               cantidad: int,
+                               matriz_stock: list) -> None:
+    
+    match centro:
+        case "Buenos Aires":
+            fila = 0
+        case "San Juan":
+            fila = 1
+        case "Jujuy":
+            fila = 2
+        case "Neuquén":
+            fila = 3
+
+    match insumo:
+        case "Guantes descartables":
+            columna = 0
+        case "Mascarillas quirúrgicas":
+            columna = 1
+        case "Jeringas":
+            columna = 2
+        case "Alcohol en gel":
+            columna = 3
+        case "Test rápidos":
+            columna = 4
+    
+    venta_insumos[fila][columna] += cantidad
+
+    matriz_stock[fila][columna] -= cantidad
+
+    print("STOCK")
+    mostrar_matriz_stock(matriz_stock)
+
+
+def informar_ventas_por_centro(venta_insumos: list) -> None:
+
+    # Falta ordenar de mayor a menor
+
+    total_vendido_por_centro = [0, 0, 0, 0]
+
+    for i in range(len(venta_insumos)):
+        for j in range(len(venta_insumos[i])):
+            if venta_insumos[i][j] != 0:
+                total_vendido_por_centro[i] += (venta_insumos[i][j] * 500)
+
+    for i in range(len(total_vendido_por_centro)):
+        print(total_vendido_por_centro[i], end=" ")
+    print()
+
