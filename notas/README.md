@@ -1,6 +1,6 @@
 # Detalles
 
-Este repositorio funciona como lugar para guardar notas de programación y de computación.
+Este directorio funciona como lugar para guardar notas de programación y de computación.
 
 
 Los ejemplos de código estarán escritos en **Python**.
