@@ -1,3 +1,3 @@
 # Utn
 
-Here you can find exercises from university. The programming language is Python.
+Here you can find my university exercises written in Python.
