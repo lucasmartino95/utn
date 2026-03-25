@@ -27,3 +27,9 @@ En **Java** todo son objetos.
 
 Tipo identificador;  
 Tipo indetificador = valor;
+
+## Variables escalares y no escalares
+
+Las **variables escalares** guardan un valor, es decir, un entero, un doble.
+
+Las **variables no escalares** guardan varios valores como arrays (vectores), listas y objetos.
