@@ -12,8 +12,18 @@ que lo convierte en un archivo ejecutable para el sistema operativo donde queram
 
 Notar que Java es un **lenguaje fuertemente tipado** y además **el compilador solo detecta errores de sintáxis** y no de lógica o semánticos. Otra cosa es que Java **no permite** acceder a áreas arbitrarias de memoria (punteros). Por estos motivos se lo considera **seguro**.
 
+En **Java** todo son objetos.
+
 ## Convenciones
 
 **Clases**: sustantivos en UpperCamelCase.  
 **Metodos**: verbos en camelCase.  
 **Paquetes**: escritos en minúsculas.  
+
+**Variables**: camelCase.  
+**Constantes**: todo en mayúsculas separadas por guión bajo.
+
+## Declaraciones
+
+Tipo identificador;  
+Tipo indetificador = valor;
