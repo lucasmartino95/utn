@@ -74,3 +74,25 @@ Servidores de la base de datos.
 ## Unidad 2
 
 Una base de datos relacional es aquella que los usuarios la perciben como un conjunto de tablas.
+
+### Tipos de relaciones
+
+**Vistas**: obtener los datos de un determinado campo.
+
+**Instantáneas (snapshots)**: toma una foto de la base de datos y hace una copia íntegra sin que el usuario note que estoy copiando la base de datos. Con esto puedo hacer pruebas o *backup*.
+
+A diferencia de la vista, tiene los **datos reales** de la base, no solo un recorte.
+
+**Resultado de consultas**: pueden o no tener nombre. No tienen existencias persistente
+
+**Relaciones temporales**: es una relación con nombre que se destruye. Por ejemplo al terminar una sesión activa
+
+Para darme cuenta si una tabla es una **entidad o interrelación**, puedo fijarme en si la **primary key** es compuesta. O también puedo fijarme en el nombre de la tabla. O también revisar si la tabla me da un dato extra que no corresponda a su nombre.
+
+### Ejemplo de interrelación
+
+|Legajo | Materia | Nota |
+|---|---|---|
+| 6097 | Matemática | 7  |
+
+En este caso, los campos que identifican la nota del alumno es la **primary key** compuesta: legajo y materia.
