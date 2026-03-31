@@ -67,3 +67,5 @@ Servidores de la base de datos.
 **Auditoria**: es una forma de registrar eventos, como alguien que borró o cambió un dato de la base de datos.
 
 **Recupero**: a medida que la base de datos se actualiza, también vamos guardando los cambios por si necesitamos recuperar algún dato.
+
+**Relacionabilidad**: los datos podrán ser utilizados o explorados de manera flexible, con diferentes caminos de acceso, gracias a su relación incluida de datos.
