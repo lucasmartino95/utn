@@ -46,3 +46,24 @@ DML (Data Manipulation Language)
 ### Información
 
 Es **integrada y compartida**. La base de datos puede considerarse como una unificación de varios archivos de datos, evitando redundancia. Compartida quiere decir que los **elementos de la base de datos** pueden comparirse por varios usuarios distintos.
+
+### Equipos
+
+Servidores de la base de datos.
+
+### Programas
+
+- Programas de aplicación: interacción entre los usuarios y la base de datos.
+- Programas de administración (SGDB): maneja las solicitudes de acceso a la base de datos, la obtención y puesta al día de los datos.
+
+### Usuarios
+
+- Administrador de base de datos
+- Analista de sistemas y programador de aplicaciones
+- Usuarios finales
+
+## Conceptos
+
+**Auditoria**: es una forma de registrar eventos, como alguien que borró o cambió un dato de la base de datos.
+
+**Recupero**: a medida que la base de datos se actualiza, también vamos guardando los cambios por si necesitamos recuperar algún dato.
