@@ -27,6 +27,15 @@ Notar que el constructor le da valores iniciales a los atributos y métodos, por
 
 La palabra reservada **this**, referencia dentro de la clase al objeto que está accediendo desde fuera de la clase.
 
+Para usar un **constructor propio**, debemos usar:
+
+```Java
+public MiClase()
+{
+    this.str = "Nuevo valor por defecto";
+}
+```
+
 ## Asignación en memoria
 
 La **asignación en memoria** de los objetos y clases es manejada por **Java**. Y cada **objeto** es independiente el uno del otro.
