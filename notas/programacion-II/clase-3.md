@@ -27,4 +27,12 @@ Notar que el constructor le da valores iniciales a los atributos y métodos, por
 
 La palabra reservada **this**, referencia dentro de la clase al objeto que está accediendo desde fuera de la clase.
 
+## Asignación en memoria
+
 La **asignación en memoria** de los objetos y clases es manejada por **Java**. Y cada **objeto** es independiente el uno del otro.
+
+- Los objetos se guardan en la **memoria heap**, en la cual no hay un orden, es decir, los valores. La referencia se guarda en la **memoria stack**
+
+- Las variables en el método *main* o cualquier método se guardan en la **memoria stack** en forma de pila, y luego se van desapilando.
+
+Por ejemplo `MiClase obj;` tiene una referencia en la **memoria stack** pero su valor es *null*, ya que en la **memoria heap** no tiene asignado ningún valor.
