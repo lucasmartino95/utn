@@ -49,3 +49,53 @@ Por ejemplo `MiClase obj;` tiene una referencia en la **memoria stack** pero su 
 ## Garbage collector
 
 El **recolector de basura** elimina las referencias de variables una vez que están fuera de *scope* o alcance. Por ejemplo cuando salimos de un bloque `if`. No aplica exactamente a atributos o métodos de objetos, ya que los valores siguen vivos en la **memoria heap**, pero su referencia es destruida.
+
+## Blóques estáticos
+
+Asigna valores por defecto a los atributos estáticos de la clase. Además se ejecuta **una única vez**, y su sintáxis es:
+
+```java
+static {
+    MiClase.nombre = "Lucas";
+    MiClase.apellido = "Martino";
+}
+```
+
+## Métodos getter y setters
+
+Son métodos para **acceder a atributos definidos de una clase** que son privados (menor rango de accesibilidad), o sea que no se puede acceder desde fuera de la clase. Por ejemplo, se usa para contraseñas, saldo de cuentas y demás.
+
+Se usa con **métodos separados** para mayor control y seguridad. En cambio, si accedemos simplemente cambiando una variable, puede haber situaciones no deseadas. Por ejemplo podemos establecer blóques de código.
+
+```java
+if (saldo < this.cuenta) {
+    System.out.println("No me dejes sin plata");
+}
+else {
+    this.cuenta += saldo;
+}
+```
+
+Por convención, usamos, `get` o `set` más el nombre del atributo en **lowerCamelCase**:
+
+```java
+private String nombre;
+
+public String getNombre() {
+    return this.nombre;
+}
+
+public void setNombre(String nombre) {
+    this.nombre = nombre;
+}
+```
+
+Con esto, **también** podemos establecer **atributos de solo lectura o solo escritura**.
+
+## Paquetes
+
+Son conjuntos de clases, interfaces, y subpaquetes. **Organiza** mejor el código y evita conflictos de nombres. Nos permite también **encapsular** cosas. Por defecto asigna el mismo nombre que el proyecto mismo.
+
+- import: importa paquetes dentro del mismo proyecto
+
+- para hacer una librería debemos crear un proyecto de Java Library, compilarlo y moverlo a una carpeta dentro del proyecto que quiero usar, en una carpeta por ejemplo: **libs/CajaDeHerramientas**, luego lo referenciamos como: `import Numeraciones.Validadora;`
