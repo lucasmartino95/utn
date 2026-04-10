@@ -36,3 +36,7 @@ La **asignación en memoria** de los objetos y clases es manejada por **Java**. 
 - Las variables en el método *main* o cualquier método se guardan en la **memoria stack** en forma de pila, y luego se van desapilando.
 
 Por ejemplo `MiClase obj;` tiene una referencia en la **memoria stack** pero su valor es *null*, ya que en la **memoria heap** no tiene asignado ningún valor.
+
+## Garbage collector
+
+El **recolector de basura** elimina las referencias de variables una vez que están fuera de *scope* o alcance. Por ejemplo cuando salimos de un bloque `if`. No aplica a atributos o métodos de objetos, ya que los valores siguen vivos en la **memoria heap**.
