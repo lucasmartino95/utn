@@ -39,4 +39,4 @@ Por ejemplo `MiClase obj;` tiene una referencia en la **memoria stack** pero su 
 
 ## Garbage collector
 
-El **recolector de basura** elimina las referencias de variables una vez que están fuera de *scope* o alcance. Por ejemplo cuando salimos de un bloque `if`. No aplica a atributos o métodos de objetos, ya que los valores siguen vivos en la **memoria heap**.
+El **recolector de basura** elimina las referencias de variables una vez que están fuera de *scope* o alcance. Por ejemplo cuando salimos de un bloque `if`. No aplica exactamente a atributos o métodos de objetos, ya que los valores siguen vivos en la **memoria heap**, pero su referencia es destruida.
