@@ -78,4 +78,4 @@ Las vistas sirven para mostrar un **recorte de la tabla**, que además podemos l
 
 ### Ejercicios
 
-Ejercicios desde pág 23 hasta 26.
+Ejercicios desde la pág 23 hasta 26. Copiar la sentencia.
