@@ -22,3 +22,11 @@ Lo que busca es que los datos de la base de datos **no genere errores**. Nos per
 - uk_constraint: **u** es de Unique y **k** es de constraint
 
 Se consideran también **reglas de negocio**.
+
+## Habilitar / deshabilitar constraints
+
+Un flujo de trabajo común es cuando tenemos **dos tablas separadas**, y en una tenemos email del cliente y en la otra teléfono y las queremos unir:
+
+1. Deshabilitamos las *constraints*
+2. Unimos las tablas
+3. Luego volvemos a habilitar las *constraints*
