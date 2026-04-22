@@ -19,4 +19,4 @@ Equals es para Strings y **==** es para datos primitivos o referencias en el sta
 
 Son útiles para **representar un conjunto fijo de valores conocidos**, como los días de la semana, los colores, los estados de un proceso, etc.
 
-Es una validación menos para hacer.
+Con los enums una validación menos para hacer.
