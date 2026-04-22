@@ -13,7 +13,9 @@ Cambia el contenido de un String **sin crear nuevos objetos**, por esto es más 
 
 # Diferencia entre equals y ==
 
-Equals es para Strings y **==** es para datos primitivos o referencias en el stack.
+Equals es para Strings.
+
+== es para datos primitivos o referencias en el stack.
 
 # Enums
 
