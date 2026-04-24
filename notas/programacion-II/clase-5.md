@@ -10,6 +10,18 @@ Atributos
 Constructores    
 Getters y setters  
 Métodos de instancia  
-Elementos estáticos  
+Elementos estáticos  (también hay que subrayarlos con _ al inicio y final del elemento)
+```
+
+Símbolos:
 
 ```
+Público: +  
+Privado: -  
+Protegido: *  
+De paquete: no se representa
+```
+
+## Tipos de flecha
+
+- Dependencia y asociación
