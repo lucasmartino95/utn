@@ -24,3 +24,11 @@ La diferencia es que con el *for* podemos cometer errores al trabajar con el ín
 Son **elementos escalares** que nos permiten tener varios elementos de distintos tipos en una variable. Y tiene **más herramientas** que los arrays **para resolver tareas**.
 
 La colección que más vamos a usar es **ArrayList**.
+
+También hay otras como:
+
+- **LinkedList**
+- **HashSet**
+- **HashMap**
+- **Stack**
+- **Queue**
