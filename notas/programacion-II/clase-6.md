@@ -21,4 +21,6 @@ La diferencia es que con el *for* podemos cometer errores al trabajar con el ín
 
 # Colecciones
 
-Son **elementos escalares**, nos permite tener varios elementos de distintos tipos en una variable. Y tiene **más herramientas** que los arrays **para resolver tareas**.
+Son **elementos escalares** que nos permiten tener varios elementos de distintos tipos en una variable. Y tiene **más herramientas** que los arrays **para resolver tareas**.
+
+La colección que más vamos a usar es **ArrayList**.
