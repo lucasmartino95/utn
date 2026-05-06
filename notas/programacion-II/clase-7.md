@@ -59,3 +59,7 @@ Si queremos **referenciar** a un atributo o método de una clase padre, usamos l
 Los constructores **no se heredan** de las clases padre. Se debe invocar sí o sí primero al constructor de la clase padre, con: `super()`.
 
 Si el constructor de la clase padre, no tiene elementos, no hace falta invocarlo desde la clase hija.
+
+### Ejercicios
+
+Considerar G07 y G08.
