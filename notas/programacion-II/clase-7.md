@@ -53,3 +53,7 @@ public class Gato extends Animal {
 ```
 
 Si queremos **referenciar** a un atributo o método de una clase padre, usamos la palabra clave **super**. Es como el **this**, solo que hace referencia a los atributos o métodos de la clase padre.
+
+## Constructores
+
+Los constructores **no se heredan** de las clases padre. Se debe invocar primero al constructor de la clase padre, con: `super()`.
