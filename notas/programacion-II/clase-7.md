@@ -16,3 +16,5 @@ En **Java** todo deriva de la clase **Object** implícitamente.
 - **Simple**: las clases derivadas solo pueden tener una clase padre.
 
 - **Múltiple**: las clases derivadas pueden tener varias clases padre, lo cual no está permitido en **Java**.
+
+Notar que la clase padre nunca conoce a sus hijos, por ejemplo la clase **Animal** no sabe si puede ser un **Perro** o un **Gato**. Por eso se dice que las clases hijo siempre miran hacia arriba, queriendo decir que un **Perro** o un **Gato** saben que son de la clase **Animal**.
