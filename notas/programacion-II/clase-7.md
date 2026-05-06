@@ -60,6 +60,6 @@ Los constructores **no se heredan** de las clases padre. Se debe invocar sí o s
 
 Si el constructor de la clase padre, no tiene elementos, no hace falta invocarlo desde la clase hija.
 
-### Ejercicios
+# Ejercicios
 
 Considerar G07 y G08.
