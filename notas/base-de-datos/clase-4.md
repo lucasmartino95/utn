@@ -1,1 +1,1 @@
-Clase de repaso
+Clase de repaso.
