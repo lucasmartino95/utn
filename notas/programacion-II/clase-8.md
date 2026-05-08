@@ -12,4 +12,4 @@ Es un concepto transversal a todos los lenguajes de programación.
     - **Por inclusión**: se basa en herencia y sobreescritura (no es lo mismo que sobrecargar) de métodos. 
         - sobreescritura es cambiar el comportamiento de un método con la misma firma, es decir, **mismos modificadores de acceso, retorno y parámetros**.
 
-Las **maneras más comunes** de usar polimorfismo pueden ser sobreescribir `toString();` o `equals();`.
+Las **maneras más comunes** de usar polimorfismo pueden ser sobrescribir `toString()` o `equals()`.
