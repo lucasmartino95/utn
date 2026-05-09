@@ -46,7 +46,7 @@ DML (Data Manipulation Language)
 
 #### Información
 
-Es **integrada y compartida**. La base de datos puede considerarse como una unificación de varios archivos de datos, evitando redundancia. Compartida quiere decir que los **elementos de la base de datos** pueden comparirse por varios usuarios distintos.
+Es **integrada y compartida**. La base de datos puede considerarse como una unificación de varios archivos de datos, evitando redundancia. Compartida quiere decir que los **elementos de la base de datos** pueden compartirse por varios usuarios distintos.
 
 #### Equipos
 
