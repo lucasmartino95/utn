@@ -38,3 +38,27 @@ Lugar **donde se alojan las bases de datos**, como servidores, volúmenes de alm
 - Analista de sistemas y programador: determinan los requerimientos para los usuarios finales. Escriben los programas que utilizan la BD.
 
 - Usuarios finales: interactúan con el sistema a través de los programas que desarrollan los programadores.
+
+# Características de una base de datos
+
+- Independecia de datos respeto de los programas.
+- Disminución de la redundancia.
+- Naturaleza autodescriptiva.
+- Manejo de múltiples vistas (distintas vistas para distintos usuarios).
+- Compacta, rápida y actualizada.
+- Posibilidad de aplicar restricción de seguridad.
+- Auditoría y recupero.
+- Relacionabilidad (podemos relacionar datos de diferentes tablas).
+
+# Conceptos clave
+
+- **Atributo**: así se le llama a las columnas o ítem de datos.
+- **Cardinalidad**: es el número de filas que contiene una tabla.
+- **Grado de relación**: la cantidad de columnas que tiene una tabla.
+- **Dominio**: es el rango de valores atómicos que puede tomar un atributo. Por ejemplo ir de 001 a 999.
+
+Una tabla puede ser de **entidad** o de **interrelación**.
+
+Si es de **entidad** quiere decir que representa un objeto de la vida real como **Alumno** o **Curso**.
+
+Mientras que si es una **interrelación** quiere decir que tenemos una tabla que **conecta** dos o más tablas de entidad, por ejemplo: **Inscripciones** contendra las llaves foráneas compuestas: **ID_ALUMNO**, **ID_CURSO**.
