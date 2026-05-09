@@ -62,3 +62,15 @@ Una tabla puede ser de **entidad** o de **interrelación**.
 Si es de **entidad** quiere decir que representa un objeto de la vida real como **Alumno** o **Curso**.
 
 Mientras que si es una **interrelación** quiere decir que tenemos una tabla que **conecta** dos o más tablas de entidad, por ejemplo: **Inscripciones** contendra las llaves foráneas compuestas: **ID_ALUMNO**, **ID_CURSO**.
+
+## Tipos de relaciones
+
+- **Relaciones base o reales**: son aquellas que tienen nombre, como las tablas o entidades.
+
+- **Vistas**: está representada dentro del sistema mediante su definición en términos de otras relaciones con nombre. Es una relación derivada.
+
+- **Instantáneas**: También es una relación derivada pero son reales en lugar de virtuales, además de estar representada por su definición en término de otras relaciones con nombre, también tiene sus propios datos almacenados.
+
+- **Relaciones de consulta**: Pueden o no tener nombre. No tienen existencia permanente.
+
+- **Relaciones temporales**: Es una relación con nombre que se destruye, por ejemplo al terminar una sesión.
