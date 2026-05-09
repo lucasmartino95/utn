@@ -67,7 +67,7 @@ Para alterar un índice, como **solo podemos alterar tablas**, simplemente lo el
 
 ## Vistas
 
-Las vistas sirven para mostrar un **recorte de la tabla**, que además podemos limitar qué cosas puede ver la persona con acceso a la vista. También sirve para **proteger datos sensibles** y **evitar equivocaciones sobre la tabla**.
+Las vistas sirven para mostrar un **recorte de la tabla**, que además podemos limitar qué cosas pueden ver la persona con acceso a la vista. También sirve para **proteger datos sensibles** y **evitar equivocaciones sobre la tabla**.
 
 # DML (Manipulación de Datos)
 
