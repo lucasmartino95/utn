@@ -1,7 +1,7 @@
 # Introducción
 
 **Mysql** es un **sistema de gestión de base de datos** open-source. 
-Se encarga de hacer que la información sea persistente y que pueda ser
+Se encarga de hacer que la información sea persistente, centralizada y que pueda ser
 accedida o manipulada por distintos usuarios.
 
 Hay **dos aspectos** del **diseño de la base de datos** a tener en cuenta:
@@ -32,7 +32,7 @@ Lugar **donde se alojan las bases de datos**, como servidores, volúmenes de alm
 - DBA (Aministrador de la Base de Datos): se encarga del control general del sistema a nivel técnico:
     - Define el diseño de la base de datos y la vinculación con los usuarios.
     - Define la seguridad e integridad de los datos
-    - Practica procedimientos de respalda y recuperación.
+    - Practica procedimientos de respaldo y recuperación.
     - Supervisión del desempeño y cambios en lo requerimientos
 
 - Analista de sistemas y programador: determinan los requerimientos para los usuarios finales. Escriben los programas que utilizan la BD.
