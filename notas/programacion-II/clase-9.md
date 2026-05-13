@@ -9,4 +9,4 @@ de una de estas clases, usamos: `public abstract void acelerar();`.
 Luego la **clase hija** deberá implementar el método `acelerar` obligatoriamente 
 **sobrescribiendo** el método abstracto de su clase padre.
 
-Las **clases abstractas** pueden tener los mismos elementos que las clases comúnes y además, métodos abstractos.
+Las **clases abstractas** pueden tener los mismos elementos que las clases comúnes y además, **métodos abstractos**.
