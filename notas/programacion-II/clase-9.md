@@ -1,7 +1,7 @@
 # Abstracción
 
 Las clases abstractas son aquellas entidades que no se pueden tocar, 
-como **Animal o Vehículos**.
+como **Animal o Vehículo**.
 
 Para definir un método abstracto dentro 
 de una de estas clases, usamos: `public abstract void acelerar();`.
