@@ -10,3 +10,5 @@ Luego la **clase hija** deberá implementar el método `acelerar` obligatoriamen
 **sobrescribiendo** el método abstracto de su clase padre.
 
 Las **clases abstractas** pueden tener los mismos elementos que las clases comúnes y además, **métodos abstractos**.
+
+La **única clase que está obligada** a sobrescribir un método abstracto, es la primer clase derivada.
