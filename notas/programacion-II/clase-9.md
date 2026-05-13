@@ -15,4 +15,4 @@ Las **clases abstractas** pueden tener los mismos elementos que las clases comú
 
 La **única clase que está obligada** a sobrescribir un método abstracto, es la primer clase derivada.
 
-Las **clases abstractas no se pueden instanciar**.
+Las **clases abstractas no se pueden instanciar**. Solo las podemos usar como **cáscaras**, o sea, instanciar un objeto a partir de sus clases derivadas.
